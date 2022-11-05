@@ -1,3 +1,5 @@
+#include <assert.h>
+
 double seconds_difference(double time_1, double time_2)
 {
     // your implementation goes here...
@@ -166,4 +168,9 @@ double time_from_utc(int utc_offset, double time)
         >>> time_from_utc(+1, 23.0)
         0.0
     */
+}
+
+int main()
+{
+
 }
